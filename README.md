@@ -2,10 +2,10 @@
 <!-- ![](./assets/logo_long.png#gh-light-mode-only){: width="50%"} -->
 <!-- ![](./assets/logo_long_dark.png#gh-dark-mode-only=100x20) -->
 <div align="center">
-<img src='assets/logo.png' style="height:100px"></img>
+<img src='assets/logo.svg' style="height:100px"></img>
 
-<a href='https://arxiv.org/abs/2503.23284'><img src='https://img.shields.io/badge/arXiv-2405.17933-b31b1b.svg'></a> &nbsp;
-<a href='http://geometrylearning.com/SketchVideo/'><img src='https://img.shields.io/badge/Project-Page-Green'></a> &nbsp;
+<a href='https://dl.acm.org/doi/10.1145/3721238.3730623'><img src='https://img.shields.io/badge/ACM-10.1145/3721238.3730623-blue.svg'></a> &nbsp;
+<a href='http://geometrylearning.com/Sketch3DVE/'><img src='https://img.shields.io/badge/Project-Page-Green'></a> &nbsp;
 <a href='https://www.youtube.com/watch?v=ABnx9tUvI2M'><img src='https://img.shields.io/badge/Youtube-Video-b31b1b.svg'></a><br>
 
 <strong> SIGGRAPH 2025</strong>
@@ -113,6 +113,8 @@ The inference time can be reduced by using fewer DDIM steps.
 
 ## ⚙️ Setup
 
+We test the code on CUDA 11.8 and Python 3.10, so we recommend using the same environment.
+
 ### Install Environment via Anaconda (Recommended)
 ```bash
 conda create -n sketch3dve python=3.10
@@ -137,19 +139,14 @@ sh test.sh
 ## 😉 Citation
 Please consider citing our paper if our code is useful:
 ```bib
-@inproceedings{10.1145/3721238.3730623,
+@inproceedings{
 author = {Liu, Feng-Lin and Li, Shi-Yang and Cao, Yan-Pei and Fu, Hongbo and Gao, Lin},
 title = {Sketch3DVE: Sketch-based 3D-Aware Scene Video Editing},
 year = {2025},
-isbn = {9798400715402},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
 booktitle = {Proceedings of the Special Interest Group on Computer Graphics and Interactive Techniques Conference Conference Papers},
 articleno = {152},
 numpages = {12},
 keywords = {Sketch-based interaction, video generation, video editing, video diffusion models},
-location = {
-},
 series = {SIGGRAPH Conference Papers '25}
 }
 ```
